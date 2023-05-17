@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --primaryColor : #A574BC;
+  --darkColor : #1C1D1F;
+  --greyColor : #DEDEDE;
+  --gradPurpleWhite : linear-gradient(138.45deg, #FAECFF 8.41%, #FDF7FF 89.84%);
+  --gradPurplePink : linear-gradient(247.33deg, #F4D3FF 22.02%, #E8E2EA 91.23%);
+  --gradGrey : radial-gradient(39.74% 59.35% at 70.79% 50%, #EAE5ED 0%, #F5F1F8 58.47%, #F0EDF5 100%);
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  color: var(--darkColor) !important;
+}
+/* .container{
+  max-width: 1280px !important;
+} */
+h1{
+  font-weight: 600 !important;
+  font-size: 48px !important;
+  line-height: 1.5 !important;
+}
+h2{
+  font-weight: 600 !important;
+  font-size: 32px !important;
+}
+h6{
+  font-size: 14px !important;
+}
+p, span{
+  font-size: 14px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* -----------------------BUTTON CSS----------------------- */
+.btnPrimary{
+  padding: 8px 14px;
+  background: var(--primaryColor);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--primaryColor);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+.btnPrimary:hover{
+  background: none;
+  color: var(--darkColor);
+  border: 1px solid;
+  border-color: var(--darkColor);
+  transition: .3s ease-in-out;
+}
+.btnSecondary{
+  padding: 8px 14px;
+  background: none;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryColor);
+  transition: .3s ease-in-out;
+}
+.btnSecondary:hover{
+  background: none;
+  color: var(--darkColor);
+  border: 1px solid;
+  border-color: var(--darkColor);
+  transition: .3s ease-in-out;
+}
+.btnSecondary2{
+  font-size: 14px;
+  padding: 8px 14px;
+  background: none;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryColor);
+  transition: .3s ease-in-out;
+}
+.btnSecondary2:hover{
+  background: var(--primaryColor);
+  color: #fff;
+  border: 1px solid;
+  border-color: var(--primaryColor);
+  transition: .3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+/* -----------------------NAVBAR CSS----------------------- */
+.navbar{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+.nav-link:hover, .nav-link.active{
+  color: var(--primaryColor) !important;
+}
+.nav-link{
+  color: var(--darkColor) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* -----------------------HEADER CSS----------------------- */
+.header{
+  background: url(/src/assets/header-bg.png), var(--gradPurplePink);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* -----------------------PARTNER CSS----------------------- */
+.partner img{
+  max-width: 100px;
+}
+
+/* -----------------------PROVIDE CSS----------------------- */
+.card{
+  background: var(--gradPurpleWhite);
+  border: none !important;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.card-img-top{
+  max-width: 100px;
+}
+
+/* -----------------------FEATURE CSS----------------------- */
+.feature{
+  background: var(--gradGrey);
+  border-radius: 12px;
+}
+
+/* -----------------------PRODUCT CSS----------------------- */
+.price{
+  color: var(--primaryColor);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* -----------------------BANNER PURCHASE CSS----------------------- */
+.bannerPurchase{
+  background: url(/src/assets/purchase-section-bg.png), var(--gradPurpleWhite);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border-radius: 12px;
+}
+
+/* -----------------------FOOTER CSS----------------------- */
+.footer{
+  background: var(--gradPurplePink);
+}
+.footer .container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text-justify{
+  text-align: justify;
+}
+.borderTop{
+  border-top: 1px solid;
+  border-color: var(--darkColor);
+}
+.footer h6{
+  font-size: 18px !important;
+}
+.footer a{
+  text-decoration: none;
+  color: var(--darkColor);
+}
+.footer a:hover{
+  color: var(--primaryColor);
+}
+.footer .btnPrimary{
+  border-radius: 8px;
+}
+.footer input{
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
 }
