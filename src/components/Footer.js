@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className="footer mt-5" id="footer">
       <div className="container">
-        <div className="row">
-          <div className="col-4 pe-5">
+        <div className="row row-gap-5">
+          <div className="col-12 col-md-4 pe-md-5 px-5 px-sm-0">
             <img src={logoText} alt="" />
             <p className="text-justify py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
@@ -23,14 +23,14 @@ const Footer = () => {
               <a href="#shipping"><Icon icon="fa-brands:pinterest-square" /></a>
             </div>
           </div>
-          <div className="col-2 d-flex flex-column gap-2">
+          <div className="col-6 col-md-2 d-flex flex-column gap-2 ps-5 ps-sm-0">
             <h6 className="pb-2">Help</h6>
             <span><a href="#shipping">Shipping</a></span>
             <span><a href="#shipping">Payments</a></span>
             <span><a href="#shipping">FAQ</a></span>
             <span><a href="#shipping">Product Care</a></span>
           </div>
-          <div className="col-2 d-flex flex-column gap-2">
+          <div className="col-6 col-md-2 d-flex flex-column gap-2 pe-5 pe-sm-0">
             <h6 className="pb-2">About Us</h6>
             <span><a href="#shipping">Latest News</a></span>
             <span><a href="#shipping">Offline Stores</a></span>
@@ -39,7 +39,7 @@ const Footer = () => {
             <span><a href="#shipping">Careers</a></span>
             <span><a href="#shipping">Programs</a></span>
           </div>
-          <div className="col-4 d-flex flex-column">
+          <div className="col-12 col-sm-8 col-md-4 d-flex flex-column px-5 px-sm-0">
             <h6>GET THE LATEST PROMOS AND OTHER INFO BY REGISTERING YOUR EMAIL!</h6>
             <input type="email" className="form-control my-4" id="email-form" placeholder="Your email" />
             <button className="btnPrimary mb-4">SUBSCRIBE !</button>
