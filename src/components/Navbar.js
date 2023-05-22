@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logoText from '../assets/logo-text.png'
 
 const Navbar = () => {
+  const [activeLink, setActiveLink] = useState('home')
+
+  const onUpdateActiveLink = (value) =>{
+    setActiveLink(value)
+  }
+
   return (
     <nav className="navbar navbar-expand-lg py-3 sticky-top">
       <div className="container container-fluid">
@@ -14,19 +20,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul className="navbar-nav gap-2">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">Home</a>
+              <a className={activeLink === 'home' ? 'nav-link active' : 'nav-link'} href="#home" onClick={() => onUpdateActiveLink('home')}>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className={activeLink === 'about' ? 'nav-link active' : 'nav-link'} href="#about" onClick={() => onUpdateActiveLink('about')}>About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#features">Features</a>
+              <a className={activeLink === 'features' ? 'nav-link active' : 'nav-link'} href="#features" onClick={() => onUpdateActiveLink('features')}>Features</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#product">Product</a>
+              <a className={activeLink === 'product' ? 'nav-link active' : 'nav-link'} href="#product" onClick={() => onUpdateActiveLink('product')}>Product</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#footer">Contact</a>
+              <a className={activeLink === 'footer' ? 'nav-link active' : 'nav-link'} href="#footer" onClick={() => onUpdateActiveLink('footer')}>Contact</a>
             </li>
           </ul>
           <ul className="navbar-nav gap-3">
