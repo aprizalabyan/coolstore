@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coolstore/static/css/main.6f815561.css",
-    "main.js": "/coolstore/static/js/main.95c53131.js",
+    "main.css": "/coolstore/static/css/main.fce8942f.css",
+    "main.js": "/coolstore/static/js/main.9699cd37.js",
     "static/media/header-bg.png": "/coolstore/static/media/header-bg.d64a81da5ce0193f9dca.png",
     "static/media/header-img.png": "/coolstore/static/media/header-img.76f1b1c46dff130c270f.png",
     "static/media/purchase-section-img.png": "/coolstore/static/media/purchase-section-img.3c378e575daa219bf84b.png",
@@ -12,12 +12,15 @@
     "static/media/item-img-ventura.png": "/coolstore/static/media/item-img-ventura.dcb2ea09f8a91c1550d8.png",
     "static/media/item-img-phantom.png": "/coolstore/static/media/item-img-phantom.1c0abf98871f333cc1a4.png",
     "static/media/item-img-razor.png": "/coolstore/static/media/item-img-razor.9466c68442513664464a.png",
+    "static/media/revicons.eot": "/coolstore/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/coolstore/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/coolstore/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coolstore/index.html",
-    "main.6f815561.css.map": "/coolstore/static/css/main.6f815561.css.map",
-    "main.95c53131.js.map": "/coolstore/static/js/main.95c53131.js.map"
+    "main.fce8942f.css.map": "/coolstore/static/css/main.fce8942f.css.map",
+    "main.9699cd37.js.map": "/coolstore/static/js/main.9699cd37.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f815561.css",
-    "static/js/main.95c53131.js"
+    "static/css/main.fce8942f.css",
+    "static/js/main.9699cd37.js"
   ]
 }
