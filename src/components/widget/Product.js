@@ -1,10 +1,10 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel'
 import { Icon } from '@iconify/react'
-import item1 from '../assets/item-img-ventura.png'
-import item2 from '../assets/item-img-razor.png'
-import item3 from '../assets/item-img-beatriz.png'
-import item4 from '../assets/item-img-phantom.png'
+import item1 from '../../assets/item-img-ventura.png'
+import item2 from '../../assets/item-img-razor.png'
+import item3 from '../../assets/item-img-beatriz.png'
+import item4 from '../../assets/item-img-phantom.png'
 
 const Product = () => {
   const product = [

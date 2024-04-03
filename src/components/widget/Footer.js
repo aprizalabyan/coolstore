@@ -1,8 +1,8 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
-import logoText from '../assets/logo-text.png'
-import googlePlay from '../assets/banner-google-play.png'
-import appStore from '../assets/banner-app-store.png'
+import logoText from '../../assets/logo-text.png'
+import googlePlay from '../../assets/banner-google-play.png'
+import appStore from '../../assets/banner-app-store.png'
 
 const Footer = () => {
   return (

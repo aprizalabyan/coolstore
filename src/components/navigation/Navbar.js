@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logoText from '../assets/logo-text.png'
+import logoText from '../../assets/logo-text.png'
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('home')

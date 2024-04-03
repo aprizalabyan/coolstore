@@ -1,9 +1,9 @@
 import React from 'react'
-import amazon from '../assets/partner-amazon.png'
-import ebay from '../assets/partner-ebay.png'
-import alibaba from '../assets/partner-alibaba.png'
-import paypal from '../assets/partner-paypal.png'
-import westernUnion from '../assets/partner-western-union.png'
+import amazon from '../../assets/partner-amazon.png'
+import ebay from '../../assets/partner-ebay.png'
+import alibaba from '../../assets/partner-alibaba.png'
+import paypal from '../../assets/partner-paypal.png'
+import westernUnion from '../../assets/partner-western-union.png'
 
 const Partner = () => {
   return (

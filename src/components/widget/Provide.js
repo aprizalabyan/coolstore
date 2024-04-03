@@ -1,8 +1,8 @@
 import React from 'react'
-import wifiImg from '../assets/icon-wifi.png'
-import musicImg from '../assets/icon-music.png'
-import soundImg from '../assets/icon-sound-on.png'
-import micImg from '../assets/icon-mic.png'
+import wifiImg from '../../assets/icon-wifi.png'
+import musicImg from '../../assets/icon-music.png'
+import soundImg from '../../assets/icon-sound-on.png'
+import micImg from '../../assets/icon-mic.png'
 
 const Provide = () => {
   return (

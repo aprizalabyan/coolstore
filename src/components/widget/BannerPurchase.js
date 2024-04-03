@@ -1,5 +1,5 @@
 import React from 'react'
-import purchaseBannerImg from '../assets/purchase-section-img.png'
+import purchaseBannerImg from '../../assets/purchase-section-img.png'
 
 const BannerPurchase = () => {
   return (

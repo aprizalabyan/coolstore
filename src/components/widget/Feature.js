@@ -1,10 +1,10 @@
 import React from 'react'
-import imgFeature from '../assets/features-section-img.png'
-import feature1 from '../assets/icon-ft-tech.png'
-import feature2 from '../assets/icon-ft-design.png'
-import feature3 from '../assets/icon-ft-hq.png'
-import feature4 from '../assets/icon-ft-bass.png'
-import bannerImg from '../assets/here-music-section-img.png'
+import imgFeature from '../../assets/features-section-img.png'
+import feature1 from '../../assets/icon-ft-tech.png'
+import feature2 from '../../assets/icon-ft-design.png'
+import feature3 from '../../assets/icon-ft-hq.png'
+import feature4 from '../../assets/icon-ft-bass.png'
+import bannerImg from '../../assets/here-music-section-img.png'
 
 const Feature = () => {
   return (
