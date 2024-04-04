@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coolstore/static/css/main.825d099b.css",
-    "main.js": "/coolstore/static/js/main.fdc0f244.js",
+    "main.js": "/coolstore/static/js/main.0b4d0f97.js",
     "static/media/login-bg.png": "/coolstore/static/media/login-bg.cc18d5090eeaf7470b34.png",
     "static/media/header-bg.png": "/coolstore/static/media/header-bg.d64a81da5ce0193f9dca.png",
     "static/media/header-img.png": "/coolstore/static/media/header-img.76f1b1c46dff130c270f.png",
@@ -19,10 +19,10 @@
     "static/media/revicons.woff": "/coolstore/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coolstore/index.html",
     "main.825d099b.css.map": "/coolstore/static/css/main.825d099b.css.map",
-    "main.fdc0f244.js.map": "/coolstore/static/js/main.fdc0f244.js.map"
+    "main.0b4d0f97.js.map": "/coolstore/static/js/main.0b4d0f97.js.map"
   },
   "entrypoints": [
     "static/css/main.825d099b.css",
-    "static/js/main.fdc0f244.js"
+    "static/js/main.0b4d0f97.js"
   ]
 }
