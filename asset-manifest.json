@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/coolstore/static/css/main.fce8942f.css",
-    "main.js": "/coolstore/static/js/main.9699cd37.js",
+    "main.css": "/coolstore/static/css/main.825d099b.css",
+    "main.js": "/coolstore/static/js/main.a137ba5b.js",
+    "static/media/login-bg.png": "/coolstore/static/media/login-bg.cc18d5090eeaf7470b34.png",
     "static/media/header-bg.png": "/coolstore/static/media/header-bg.d64a81da5ce0193f9dca.png",
     "static/media/header-img.png": "/coolstore/static/media/header-img.76f1b1c46dff130c270f.png",
     "static/media/purchase-section-img.png": "/coolstore/static/media/purchase-section-img.3c378e575daa219bf84b.png",
@@ -12,15 +13,16 @@
     "static/media/item-img-ventura.png": "/coolstore/static/media/item-img-ventura.dcb2ea09f8a91c1550d8.png",
     "static/media/item-img-phantom.png": "/coolstore/static/media/item-img-phantom.1c0abf98871f333cc1a4.png",
     "static/media/item-img-razor.png": "/coolstore/static/media/item-img-razor.9466c68442513664464a.png",
+    "static/media/login-img.png": "/coolstore/static/media/login-img.12b952f240cf0c1d2518.png",
     "static/media/revicons.eot": "/coolstore/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/coolstore/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/coolstore/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coolstore/index.html",
-    "main.fce8942f.css.map": "/coolstore/static/css/main.fce8942f.css.map",
-    "main.9699cd37.js.map": "/coolstore/static/js/main.9699cd37.js.map"
+    "main.825d099b.css.map": "/coolstore/static/css/main.825d099b.css.map",
+    "main.a137ba5b.js.map": "/coolstore/static/js/main.a137ba5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fce8942f.css",
-    "static/js/main.9699cd37.js"
+    "static/css/main.825d099b.css",
+    "static/js/main.a137ba5b.js"
   ]
 }
